@@ -212,6 +212,7 @@
 				TargetAttributes = {
 					1879E3BE1E81373A00F48195 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = 5836W9K38T;
 						ProvisioningStyle = Automatic;
 					};
 					1879E3D71E81373B00F48195 = {
@@ -430,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5836W9K38T;
 				INFOPLIST_FILE = "UIView+CLHidden/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinnuojiayin.UIView-CLHidden";
@@ -441,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 5836W9K38T;
 				INFOPLIST_FILE = "UIView+CLHidden/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.jinnuojiayin.UIView-CLHidden";
@@ -513,6 +516,7 @@
 				1879E3EE1E81373B00F48195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1879E3EF1E81373B00F48195 /* Build configuration list for PBXNativeTarget "UIView+CLHiddenTests" */ = {
 			isa = XCConfigurationList;
@@ -521,6 +525,7 @@
 				1879E3F11E81373B00F48195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1879E3F21E81373B00F48195 /* Build configuration list for PBXNativeTarget "UIView+CLHiddenUITests" */ = {
 			isa = XCConfigurationList;
@@ -529,6 +534,7 @@
 				1879E3F41E81373B00F48195 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

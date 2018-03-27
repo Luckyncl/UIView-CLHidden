@@ -50,6 +50,12 @@
         constraint.constant = cl_hidden ? 0 : constraint.cl_originalConstant;
     }
     
+    if (cl_hidden) {
+        self.hidden = YES;
+    }else{
+        self.hidden = NO;
+    }
+    
     objc_setAssociatedObject(self, @selector(cl_hidden), @(cl_hidden), OBJC_ASSOCIATION_RETAIN);
 }
 

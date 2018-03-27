@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "UIView+CLHidden.h"
 
 @interface ViewController ()
 
@@ -17,6 +18,13 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    
+    
+    UIView *view = [[UIView alloc] initWithFrame:CGRectMake(0, 0, 100, 100)];
+    view.backgroundColor = [UIColor blueColor];
+    view.cl_hidden = YES;
+    [self.view addSubview:view];
 }
 
 
